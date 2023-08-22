@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(26, 25, 25) ;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter{
+    background-color: rgb(210, 236, 206);
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#changeArea{
+    font-size: 10rem;
+}
+.title{
+    font-size: 2rem;
+}
+.btn-container button:first-of-type{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+}
+.btn-container button:last-of-type{
+    position: absolute;
+    top: 50%;
+    right: 35%;
+
+}
